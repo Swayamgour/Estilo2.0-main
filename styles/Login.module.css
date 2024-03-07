@@ -1,0 +1,83 @@
+.Container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container_Main{
+   background-color: rgb(231,214,198);
+   width: 95%;
+   height: 90%;
+}
+
+.MainLogo{
+    height: 26%;
+    width: 22%;
+    margin-top: 1%;
+}
+
+.Main{
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.H1{
+    font: 900 49px var(--font4);
+    font-size: 2.5em;
+}
+
+.Input_Felid{
+    width: 350px;
+    height: 9vh;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0px 1px lightpink;
+}
+
+.Input_Main{
+    display: grid;
+    justify-content: center;
+    gap: 16%;
+    height: 25vh;
+    margin-top: 1.5%;
+}
+
+.Felid{
+    height: 100%;
+    width: 73%;
+    outline: none;
+    border: none;
+    margin-left: 13%;
+    font-family: var(--font1);
+}
+
+.op{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.op_font{
+    font: 500 16px var(--font1);
+    /* font-family: var(--font1); */
+}
+
+.BTN{
+    margin-top: 3%;
+}
+
+.Submit_BTN{
+    width: 300px;
+    height: 8vh;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font: 900 23px var(--font4);
+}

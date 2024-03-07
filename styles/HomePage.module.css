@@ -1,0 +1,275 @@
+.HomePageBanner {
+    position: relative;
+    width: 100%;
+
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.buttonShop {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 30vw;
+    height: 7vh;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+
+.NewArrivals {
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+}
+
+.hrTag {
+    width: 10%;
+    margin-left: 45%;
+}
+
+.NewStyle {
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    color: #A69081;
+    font-family: Baskerville Old Face;
+}
+
+.CardCantener {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.CardForBage {
+    padding: 15px 20px 0px 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #FAF5EF;
+    width: 150px;
+}
+
+.Color {
+    border: 1px solid black;
+    padding: 5px;
+    /* width: 9%; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* padding-left: -1px; */
+}
+
+.red {
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: #FCA8A6;
+
+}
+
+.blue {
+    background-color: #A1EBF8;
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+
+.lightblue {
+    background-color: #AFA6FF;
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+
+.nametag {
+    margin-top: 5px;
+
+    font-family: 'Gill Sans' sans-serif;
+}
+
+.PersentCard {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 25px; */
+    /* height: 10vh; */
+}
+
+.OfferBanner_forcard {
+    margin-top: 30px;
+    width: 45%;
+    /* height: 10vh; */
+    /* position: absolute; */
+}
+
+.HRTAGforBestSeller {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.BestSelling {
+    display: flex;
+    /* padding:  */
+    margin-top: 40px;
+    width: 32vw;
+    padding-left: 25px;
+    /* border: 1px solid black; */
+
+}
+
+.BestSelling h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.BestSelling div {
+    border: 1px solid gray;
+}
+
+.MainBestSeller {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 15px;
+    /* margin-left: 20px; */
+    /* justify-content: space-between; */
+}
+
+.RelatedPart {
+    width: 23vw;
+    /* margin-left: 15px; */
+    margin-top: 20px;
+}
+.FooterForDeskTop{
+    display: none;
+}
+.footerForWeb{
+    display: block;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .buttonShop {
+        top: 85%;
+        height: 6vh;
+    }
+    .footerForWeb{
+        display: none;
+    }
+    .FooterForDeskTop{
+        display: block;
+    }
+    .CardCantener{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Roundimage{
+        width: 130px;
+        height: 130px;
+        border-radius: 50% !important;
+    }
+    .CardForBage{
+        width:150px ;
+    }
+    .RelatedPart {
+        width: 46vw;
+        /* margin-left: 15px; */
+        margin-top: 20px;
+    }
+    .BestSelling{
+        /* width: 46vw; */
+        width: 46vw;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .DiscoverSection{
+        padding: 10px;
+    }
+    .DiscoverSection h1{
+        font-size: 16px;
+        font-family: var(--font1);
+        font-weight: 600;
+    }
+    .SubCategoryContainer{
+        display: grid;
+        gap: 10px;
+        margin-top: 1rem;
+        font-size:14px;
+        font-family: var(--font1);
+        color: gray;
+        /* text-decoration: none; */
+        /* margin-left: 15px; */
+        /* grid-template-columns: repeat(auto  */
+    }
+  
+    .SubmitButton{
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-bottom: 1rem;
+    }
+    .footerinputbox{
+        /* width: 98%; */
+        height: 5vh;
+        font-size: 20px;
+        font-family: var(--font1);
+        padding-left: 10px;
+    }
+    .AboutTag{
+        color: gray;
+    }
+   
+}
+@media only screen and (max-width: 550px) {
+    .PersentCard{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .OfferBanner_forcard{
+        width: 100%;
+    }
+    .RelatedPart {
+        width: 100%;
+        /* margin-left: 15px; */
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .buttonShop {
+        top: 85%;
+        width: 40vw;
+        height: 5vh;
+
+    }
+  
+   
+}
+
+@media only screen and (max-width: 376px) {
+    .buttonShop {
+        top: 85%;
+        width: 40vw;
+        height: 4vh;
+        font-size: .7em;
+    }
+}

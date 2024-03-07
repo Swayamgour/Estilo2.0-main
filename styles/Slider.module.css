@@ -1,0 +1,54 @@
+.drawerHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: var(--font1);
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+.OurCollection{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: var(--font2);
+    font-size: 22px;
+    margin-bottom: 10px;
+   padding-top: 10px;
+    /* background: #FFF8EE; */
+    
+
+}
+.drawerContent{
+    background: #FFF8EE;
+}
+.collectionItems{
+    margin-top: 1rem;
+    margin-left: 10px;
+    /* margin-bottom: 1rem; */
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    font-family: var(--font1);
+    font-size: 20px;
+    
+}
+.sale{
+    color: red;
+    font-weight: 700;
+}
+.Offer{
+    color: black;
+    font-weight: 900;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+   
+}
+.bsetseller{
+    margin-bottom: 10px;
+}

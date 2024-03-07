@@ -1,0 +1,104 @@
+.empty_card{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 10vh;
+    
+}
+
+.H1{
+    font-family: var(--font3);
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.H2{
+    margin-top: 2rem;
+    font-family: var(--font3);
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.P{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1rem; 
+    font-size: 1.4em;  
+    font-family: var(--font3);
+}
+
+.Shop_now{
+    font-family: var(--font3);
+    font-weight: 300;
+    letter-spacing: 3px;
+    background: #3f1414;;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.Save_now{
+    font-family: var(--font3);
+    font-weight: 300;
+    letter-spacing: 3px;
+    background: gainsboro;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.op{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.shopping{
+    color:#9c3b3b;
+    font-family: var(--font3);
+}
+
+.checkout{
+    font-family: var(--font3);
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font3);
+    background: #2c2c45;
+    color: white;
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+}
+
+@media screen and (max-width: 425px) {
+    .Shop_now{
+        font-size: 1.2em;
+    }
+
+    .Save_now{
+        font-size: 1.2em;
+    }
+
+    .H2{
+        height: 3rem;
+    }
+
+    .op{
+        margin-top: 1rem;
+        display: grid;
+        height: 10rem;
+    }
+  }
+  

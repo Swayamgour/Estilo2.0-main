@@ -1,0 +1,125 @@
+.HelpSupport{
+    width: 100vw;
+    height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    padding: 0% 5%
+}
+
+.one{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 20vh;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.left{
+    font-family: var(--font1);
+}
+
+.P{
+    font-size: 1.3em;
+}
+
+.H1{  
+    font-size: 1.8em;
+}
+
+.two{
+    width: 90%;
+    height: 50%vh;
+
+}
+
+.img_text{
+    text-align: center;
+    background: white;
+    position: absolute;
+    display: block;
+    top: 11%;
+    /* border: 1px solid; */
+    left: 7%;
+    height: 83%;
+    width: 85%;
+    opacity: 0.8;
+    font-family: var(--font1);
+    
+}
+
+.P{
+    margin-top: 2.5rem;
+}
+
+.three{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 7vh;
+    text-align: center;
+    gap: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: gray;
+}
+
+.four{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 75vh;
+    font: 900 1.3em var(--font3);
+    background: #f7f7f7;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.four_main{
+    padding-left:5%;
+    width: 100%;
+}
+
+
+.Input{
+    height: 2rem;
+    width: 75%;
+    border: none;
+    outline: none;
+    margin: 1rem;
+    border-right: 1px solid;
+    background: #f7f7f7;
+
+}
+
+.msg{
+    width: 75%;
+    border: none;
+    outline: none;
+    margin: 1rem;
+    border-right: 1px solid;
+    background: #f7f7f7;
+    border-bottom: 1px solid;
+    border-top: 0.5px solid;
+    border-top-color: #cccccc;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.send{
+    height: 3rem;
+    width: 8rem;
+    background: black;
+    color: white;
+    border-radius: 24px;
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+}

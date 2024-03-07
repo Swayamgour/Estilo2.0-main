@@ -1,0 +1,127 @@
+.Nav_Container {
+    width: 100%;
+    height: 17vh;
+    /* background-color: ; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+    /* padding: 0px 0px 0px 0px; */
+}
+
+.navbarForindexFile {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.nanPart {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 70px;
+
+}
+
+.Icons {
+    font-size: 30px;
+}
+.logoImg {
+    width: 200px;
+}
+
+.nanPart p {
+    font-size: 30px;
+}
+
+.nanPart_Logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .nanPart {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 40px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nanPart {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 40px;
+
+    }
+    .logoImg {
+        width: 150px;
+    }
+
+    .nanPart p {
+        font-size: 30px;
+        display: none;
+    }
+    .nanPart_Logo {
+
+        gap: 20px;
+
+        /* border: 1px solid black; */
+
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .nanPart {
+
+        gap: 25px;
+
+    }
+
+    .nanPart_Logo {
+
+        gap: 20px;
+
+        /* border: 1px solid black; */
+
+    }
+
+    .logoImg {
+        width: 110px;
+    }
+
+    .Nav_Container {
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
+
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .nanPart {
+
+        gap: 10px;
+
+    }
+
+    .nanPart_Logo {
+
+        gap: 20px;
+        /* height: 10vh; */
+
+    }
+
+}

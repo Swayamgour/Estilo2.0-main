@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.H1{
+    text-align: center;
+    font-family: font3;
+    margin-top: 15vh;
+}
+
+.one{
+    text-align: start;
+    padding-left: 10%;
+    margin-top: 6vh;
+}
+
+.Heading{
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: 'font3';
+}
+
+.Paragraph{
+    margin-top: 5vh;
+    font-size: .5em;
+    color: silver;
+    font-family: 'font3';
+    margin-right: 29%;
+    font-weight: 200;
+}
+
+.Last{
+    margin-bottom: 10vh;
+    text-align: start;
+    padding-left: 10%;
+    margin-top: 6vh;
+}

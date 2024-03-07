@@ -1,0 +1,39 @@
+.TermsCondition {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.H1 {
+    font-family: var(--font1);
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    display: unset;
+    padding-bottom: 20px;
+}
+
+
+
+.text {
+    text-align: start;
+    word-spacing: 30px;
+    text-align: start;
+    word-spacing: 4px;
+    color: gray;
+    font-size: 1.4em;
+    font-family: var(--font3);
+    margin-top: 2rem;
+    width: 78%;
+    padding: 1% 12%;
+}
+
+/* @media only screen and (max-width: 768px) { */
+
+
+@media  screen and (max-width: 420px) {
+    .H1 {
+        font-size: 1.5em;
+
+    }
+}

@@ -1,0 +1,347 @@
+.Container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.First_heading{
+    font-weight: 700;
+    font-size: 1.1em;
+    background-color: cornsilk;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+
+.One{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+    align-items: center;  
+    background-color: antiquewhite;
+    height: 10vh;
+    font-family: 'font3';
+}
+
+.Left{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 42%;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.show_summary{
+    font-size: .8em;
+}
+
+.Right{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.two{
+    height: 52vh;
+    background: whitesmoke;
+    font-family: 'font3';
+}
+
+.sec1{
+    padding-top: 3%;
+    padding-left: 5%;
+    display: flex;
+}
+
+.WATERFOWL{
+    margin-left: 3%;
+    margin-top: 1%;
+    width: 100%;
+}
+
+.WATERFOWL_P{
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.Gold{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    width: 100%;
+}
+
+.Gold_Left{
+    color: gray;
+    text-align:left;
+    margin-top: 2%;
+}
+
+.Gold_Right{
+    margin-right: 4%;
+}
+
+.Input{
+    height: 6.5vh;
+    width: 70vw;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 5%;margin-top: 4%;
+    border-radius: 6px;
+}
+
+.btn{
+    width: 13vw;
+    height: 7vh;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background: gainsboro;
+    margin-left: 19px;
+    color: white;
+   
+}
+
+.sec3_subtitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin-top: 4%;
+}
+
+
+.sec3_shopping{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin-top: 4%;
+}
+
+.sec3_total{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin-top: 4%; 
+}
+
+.three_two{
+    font-family: 'font3';
+}
+
+.three_one{
+    display: flex;
+    font-family: 'font3';
+    gap: 10px;
+    margin-left:5%;
+    padding-top: 5%;
+
+}
+
+.three_one_cart{
+    color: green;
+    font-size: .8em;
+    font-weight: 550;
+    
+}
+
+.three_one_cart_arrow{
+    font-size: 1em;
+}
+
+.three_two_contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 5%;
+    margin-top: 5%;
+}
+
+.three_two_contact_1st_p{
+    font-size: .9em;
+    font-weight: 700;
+}
+
+.three_two_contact_2st_p{
+    font-size: .6em;
+    font-weight: 700;
+}
+
+.three_two_contact_input_filed{
+    margin-top: 2%;
+    padding: 0% 6%;
+}
+
+.three_two_contact_input{
+    height: 6.5vh;
+    width: 92%;
+    padding-left: 6%;
+    outline: none;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px
+}
+
+.three_two_contact_checkbox{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #c2c2c2;
+
+  }
+  
+.checkbox_label{
+    font-size: .7em;
+    margin-left: 2%;
+    font-weight: 600;
+    
+}
+
+.Shipping_address{
+    margin-top: 5%;
+}
+
+.Shipping_P{
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.Shipping_address_single_all_input{
+    height: 6.5vh;
+    width: 92%;
+    padding-left: 6%;
+    outline: none;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.Shipping_address_single_Name{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.Shipping_address_single_Name_First{
+    height: 6.5vh;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px;
+    padding-left: 6%;
+    width: 43%;
+}
+
+.Shipping_address_single_Name_Last{
+    height: 6.5vh;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px;
+    padding-left: 6%;
+    width: 38%;
+}
+
+.Shipping_address_search_div{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.5vh;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 0% 3%;
+    width: 92%;
+}
+
+.Shipping_address_search{
+    height: 88%;
+    border: none;
+    outline: none;
+    padding-left: 4%;
+}
+
+.Shipping_address_city{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 92%;
+}
+
+.city_{
+    height: 6.5vh;
+    border: 1.5px solid #c2c2c2;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 4%;
+}
+
+.phone_input{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.5vh;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 0% 3%;
+    width: 92%;
+}
+
+.phone_input{
+    height: 6.5vh;
+    width: 92%;
+    padding-left: 4%;
+    outline: none;
+    border: 1.5px solid #c2c2c2;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.return_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+    height: 6rem;
+    border-bottom: 1.5px solid;
+    margin-bottom: 8%;
+    border-bottom-color: #b7b7b7;
+
+}
+
+.return_flied{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    padding-top: 2%;
+}
+
+.return_flied_arrow{
+    color: #78d7d2;
+
+}
+
+.return_flied_P{
+    font-size: .8em;
+    font-weight: 500;
+    color: #78d7d2;
+
+}
+
+.continue_btn{
+    background: #6d0a0a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4%;
+    width: 41%;
+    height: 3rem;
+}
+
+.reversed{
+    font-family: 'font3';
+    font-size: .7em;
+    color: gray;
+    margin-bottom: 6%;
+}
