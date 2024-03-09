@@ -1,6 +1,7 @@
 .HomePageBanner {
     position: relative;
     width: 100%;
+    display: block;
 
 }
 
@@ -161,6 +162,9 @@
 .footerForWeb{
     display: block;
 }
+.SwiperContainerForMobile{
+    display: none;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -235,6 +239,12 @@
     }
     .AboutTag{
         color: gray;
+    }
+    .SwiperContainerForMobile{
+        display: block;
+    }
+    .HomePageBanner{
+        display: none;
     }
    
 }

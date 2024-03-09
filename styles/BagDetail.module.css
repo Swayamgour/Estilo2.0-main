@@ -1,0 +1,196 @@
+.mainConateanerForDE {
+  width: 100vw;
+  height: 100%;
+  /* margin-bottom: 15vh; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.ImageCantaner {
+  width: 100%;
+  
+}
+
+.containerSecond {
+  width: 40vw;
+}
+
+.bagContainer {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bagImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2.5vw; */
+}
+
+.cardBagInfoContainer {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  margin-top: 10px;
+}
+
+.cardBagInfoContainer p {
+  font-family: var(--font2);
+  color: #333333
+}
+
+.cardBagInfoContaineForLike :first-child {
+  font-family: var(--font2);
+  color: #333333
+}
+
+.cardBagInfoContaineForLike {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  margin-top: 3px;
+}
+
+.CutRate {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.Color {
+  /* border: 1px solid black; */
+  padding: 0px 15px;
+  /* width: 9%; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  font-family: var(--font1);
+  /* padding-left: -1px; */
+}
+
+.red {
+  width: 15px;
+  height: 15px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  background-color: #FCA8A6;
+
+}
+
+.blue {
+  background-color: #A1EBF8;
+  width: 15px;
+  height: 15px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+}
+
+.lightblue {
+  background-color: #AFA6FF;
+  width: 15px;
+  height: 15px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+}
+
+.QuantitySection {
+  padding: 5px 15px;
+  font-family: var(--font1);
+}
+
+.QuantityPlusone {
+  display: flex;
+  gap: 5px;
+  /* justify-content: space-between; */
+}
+
+.QuantityPlusone p {
+  border: 1px solid gray;
+  width: 30px;
+  height: 30px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+.AddToCartbuttton {
+  width: 100%;
+  height: 7vh;
+  /* margin-bottom: 7rem; */
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #DCC2AB;
+  border: none;
+  font-family: var(--font1);
+  margin-top: 8px;
+  cursor: pointer;
+
+
+}
+
+.AddToCartButton {
+  padding: 0px 15px;
+  transition: width 4s, height 1s;
+}
+
+.ProductDetail {
+  padding: 0px 15px;
+  margin-top: 15px;
+  /* border-bottom: 1px solid black; */
+}
+
+.ProductDetail p {
+  font-family: var(--font1);
+  /* margin-bottom: 10px; */
+}
+
+@media only screen and (max-width: 768px) {
+  .mainConateanerForDE {
+    width: 100%;
+    display: grid;
+    gap: 0px;
+  }
+
+  .containerSecond {
+    width: 90vw;
+   margin-left: 5%;
+
+  }
+
+  .bagContainer {
+    width: 100vw;
+  }
+  .ImageCantaner {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .containerSecond {
+    width: 100vw;
+   margin-left: -0%;
+
+  }
+ 
+
+}

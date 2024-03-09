@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import style from '../styles/Slider.module.css';
+import Style from '../styles/Cart.module.css';
 import { FaAngleLeft } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -12,9 +12,12 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import { RiMenu2Line } from "react-icons/ri";
+import { PiShoppingCartFill } from "react-icons/pi";
+
+import Image from 'next/image';
 
 
-const drawerWidth = 300;
+const drawerWidth = 350;
 
 interface Props {
 
@@ -42,39 +45,58 @@ export default function ResponsiveDrawer(props: Props) {
   };
 
   const drawer = (
-    <div>
-      <div className={style.drawerHeader}>
+    <div className={Style.Cart}>
+      <div className={Style.drawerHeader}>
         <FaAngleLeft onClick={handleDrawerToggle} />
-        <p>Bags</p>
+        <p>CART</p>
         <RxCross2 onClick={handleDrawerToggle} />
       </div>
-      <div className={style.drawerContent}>
-        <div>
-          <p className={style.OurCollection}>OUR COLLECTION</p>
+      <div className={Style.T_pice}>
+        <p className={Style.P}> 1 Item(s): Total &nbsp;<span className={Style.price}>$ 4,320.00
+        </span>
+        </p>
+        <div className={Style.main}>
+          <div className={Style.price_cart_Left}>
+            <Image
+              src="/Cart/bag.png"
+              width={80}
+              height={80}
+              alt=""
+            />
+          </div>
+          <div className={Style.price_cart_Right}>
+            <div className={Style.one}>
+              <h4>WATERFOWL CRYSTAL CLUTCH</h4>
+              <p style={{ color: "gray" }}>SILVER-GREEN</p>
+            </div>
+            <div className={Style.two}>
+              <p style={{ textDecoration: "line-through", color: "gray" }}>₹48,00.00</p>
+              <h3>₹43,320.00</h3>
+            </div>
+            <div className={Style.three}>
+              <p>SHOP10 - 10% Discount Applied !</p>
+              <p>(Saved Rs.480)</p>
+            </div>
+            <div className={Style.removeContainer} >
+              <div className={Style.QuantityPlusone}>
+                <p>+</p>
+                <p>1</p>
+                <p>-</p>
+              </div>
+              <p className={Style.remove}>Remove X</p>
+            </div>
+          </div>
         </div>
-        <hr />
-        <div className={style.collectionItems}>
-          <p>SLING BAGE</p>
-          <p>TOTE BAGE</p>
-          <p>HAND BAGE</p>
-          <p>CRYSTAL CLUTCHER</p>
-          <p>PARTY BAGE</p>
-          <p>ETHNIC BAGE</p>
-          <p>VANITY BAGE</p>
-          <p>WAIST BAGE</p>
-          <p className={style.sale}>
-            SALE
-          </p>
-          <hr style={{ width: '80%' }} />
-          <p className={style.Offer}>BUY 2 GET 1 FREE</p>
-          <p className={style.bsetseller}>Best Seller</p>
-        </div>
-        <div>
-          <p className={style.icons}><FaFacebookF /><FaXTwitter /><FaInstagram /><FaLinkedinIn /></p>
-
+        <h1 className={Style.Shop_now}>Shop Now</h1>
+        <h1 className={Style.Save_now}>SAVE LATER FOR(1)</h1>
+        <div className={Style.op}>
+          <h1 className={Style.shopping}>Continue shopping</h1>
+          <h1 className={Style.checkout}>Checkout</h1>
         </div>
       </div>
+     
     </div>
+
   );
 
   // Remove this const when copying and pasting into your project.
@@ -85,7 +107,7 @@ export default function ResponsiveDrawer(props: Props) {
       <IconButton
         onClick={handleDrawerToggle} sx={{ color: 'black' }}>
 
-        <RiMenu2Line />
+        <PiShoppingCartFill />
       </IconButton>
 
       <Box >
@@ -93,7 +115,7 @@ export default function ResponsiveDrawer(props: Props) {
           // container={container}
           // variant="temporary"
           open={mobileOpen}
-
+          anchor="right"
           onTransitionEnd={handleDrawerTransitionEnd}
           onClose={handleDrawerClose}
           ModalProps={{

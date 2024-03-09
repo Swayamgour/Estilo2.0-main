@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { HomePage, Login, Navbar, Cart, CartEmpty, Footer, TermsCondition, HelpSupport, Sort, FAQS, Address } from "@/component/Index";
 import Slider from '../component/Slider'
 import style from '../styles/Navbar.module.css'
+import BagDetail from "@/component/BagDetail";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,7 @@ export default function Home() {
       {/* <div className={style.navbarForindexFile}>
         <Navbar />
       </div> */}
-      <div><HomePage /></div>
+      {/* <div><HomePage /></div> */}
       {/* <Slider /> */}
       {/* <Login/> */}
       {/* <About/> */}
@@ -24,6 +25,7 @@ export default function Home() {
       {/* <Sort/> */}
       {/* <FAQS/> */}
       {/* <Address/> */}
+      <BagDetail />
     
     </>
   );

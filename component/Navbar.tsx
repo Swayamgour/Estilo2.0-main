@@ -7,6 +7,7 @@ import { VscAccount } from "react-icons/vsc";
 import { PiShoppingCartFill } from "react-icons/pi";
 import Slider from './Slider'
 import Link from "next/link";
+import SliderForCart from '../component/SliderForCart'
 
 
 
@@ -47,7 +48,7 @@ const Navbar = () => {
         </div>
         <div className={style.Icons}>
 
-          <Link className={style.AboutTag} href="/Cart"><PiShoppingCartFill style={{ color: 'black' }} /></Link>
+         <SliderForCart />
 
         </div>
       </div>

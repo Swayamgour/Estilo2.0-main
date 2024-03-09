@@ -1,9 +1,14 @@
-import React from "react"
-import Image from "next/image"
-import style from '@/styles/HomePage.module.css'
-import { IoMdHeartEmpty } from "react-icons/io"
-import Link from "next/link"
-import Footer from "./Footer"
+import React from "react";
+import Image from "next/image";
+import style from '@/styles/HomePage.module.css';
+import { IoMdHeartEmpty } from "react-icons/io";
+import Link from "next/link";
+import Footer from "./Footer";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 
 function HomePPage() {
@@ -96,6 +101,33 @@ function HomePPage() {
           />
           <button className={style.buttonShop}>Shop Now</button>
         </div>
+        <div className={style.SwiperContainerForMobile}>
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: true,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination]} >
+            <SwiperSlide>
+              <div style={{ display: 'flex', width: '100vw', height: '50vh', justifyContent: 'center', alignItems: 'center' }}>
+                <Image
+                  src='/Banner/CardBags.jpg'
+                  alt="h"
+                  width={250}
+                  height={250}
+                  layout="responsive"
+                  style={{ borderRadius: '8px' }}
+                />
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
 
         <div>
           <h1 className={style.NewArrivals}>" New Arrivals."</h1>
@@ -125,11 +157,15 @@ function HomePPage() {
                       <h5 style={{ paddingBottom: '10px' }}>{e.rate}</h5>
 
                     </div>
+{/* <div style={{border:'1px solid gray' , width:'100vw'}}></div> */}
                     <div className={style.Color}>
                       <p>Color</p>
                       <div className={style.red}></div>
                       <div className={style.blue}></div>
                       <div className={style.lightblue}></div>
+                    </div>
+                    <div>
+
                     </div>
                   </div>
                 </>

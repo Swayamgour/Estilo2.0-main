@@ -49,7 +49,6 @@
 @media only screen and (max-width: 1024px) {
     .nanPart {
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
         gap: 40px;
 
@@ -59,13 +58,11 @@
 @media only screen and (max-width: 768px) {
     .nanPart {
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
         gap: 40px;
-
     }
     .logoImg {
-        width: 150px;
+        width: 130px;
     }
 
     .nanPart p {
@@ -73,10 +70,14 @@
         display: none;
     }
     .nanPart_Logo {
-
         gap: 20px;
-
-        /* border: 1px solid black; */
+    }
+    .Nav_Container {
+        height: 11vh;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
 
     }
 }
@@ -89,11 +90,7 @@
     }
 
     .nanPart_Logo {
-
         gap: 20px;
-
-        /* border: 1px solid black; */
-
     }
 
     .logoImg {
@@ -112,16 +109,11 @@
 
 @media only screen and (max-width: 376px) {
     .nanPart {
-
         gap: 10px;
-
     }
 
     .nanPart_Logo {
-
         gap: 20px;
-        /* height: 10vh; */
-
     }
 
 }
